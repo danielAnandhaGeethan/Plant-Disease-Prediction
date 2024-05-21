@@ -32,7 +32,7 @@ def predict_disease(model, image):
     return predicted_class
 
 def main():
-    path = '../backend/model.h5'
+    path = 'model.h5'
 
     st.markdown("<h1 style='font-size: 29px; text-align: center;'>Plant Disease Prediction</h1>", unsafe_allow_html = True)
 
